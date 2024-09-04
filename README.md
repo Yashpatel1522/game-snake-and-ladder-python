@@ -1,4 +1,4 @@
-Snake and Ladder Game
+#Snake and Ladder Game
 
 Overview
 Welcome to the Snake and Ladder Game! This Python script implements the classic board game for 2 to 4 players. The game is simple: players roll a die to advance along the board, encountering snakes and ladders that either advance or reverse their progress. The objective is to reach the final square first.
