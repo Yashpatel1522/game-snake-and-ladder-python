@@ -1,33 +1,49 @@
-#Snake and Ladder Game
 
-Overview
-Welcome to the Snake and Ladder Game! This Python script implements the classic board game for 2 to 4 players. The game is simple: players roll a die to advance along the board, encountering snakes and ladders that either advance or reverse their progress. The objective is to reach the final square first.
+# Snake and Ladder Game
 
-Features
-- Multiplayer Support: Play with 2, 3, or 4 players.
-- Random Dice Rolls: Dice rolls are simulated with randomness.
-- Snakes and Ladders: The game board includes snakes and ladders that affect player movement.
-- Player Tracking: Keeps track of each player's position and status.
+This is a simple console-based implementation of the classic board game Snake and Ladder. The game can accommodate 2 to 4 players. The objective is to reach the 100th square on the board, overcoming snakes and climbing ladders along the way.
 
-Getting Started
 
-Clone the Repository:
-git clone https://github.com/Yashpatel1522/snakeandladder.git
+## Features
 
-Navigate to the Directory:
-cd snakeandladder
+- Play with 2, 3, or 4 players.
+- Roll a dice to move.
+- Encounter snakes and ladders which will affect your position on the board.
+- Simple text-based interface.
 
-Run the Game:
-python snakeandladder.py
 
-How to Play
-- Each player takes turns rolling the die.
-- Move your game piece according to the number rolled.
-- If you land on a snake, slide down to a lower position.
-- If you land on a ladder, climb up to a higher position.
-- The first player to reach the final square wins the game.
+## Getting Started
+Prerequisites :
+- Python 3.x installed on your computer.
+## Running the Game
+- Save the script as snakeandladder.py.
+- Open a terminal or command prompt.
+- Navigate to the directory where snakeandladder.py is located.
+- Run the script using Python:
+```bash
+python3 snakeandladder.py
+```
 
-Code Structure
-- snakeandladder.py: The main script containing the game logic.
 
-README.md: This file with instructions and details about the game.
+## Gameplay Instructions
+
+Insert gif or link to demo
+
+
+ 
+1.**Starting the Game:**  The game will prompt you to enter the number of players (2, 3, or 4).
+
+2.**Rolling the Dice:**  Each player will take turns to roll a dice and move accordingly.
+
+3.**Snakes and Ladders:**  Each player will take turns to roll a dice and move accordingly.
+
+- **Ladders** will advance your position to a higher number.
+- **Snakes** will move your position back to a lower number.
+
+4.**Winning the Game:** The first player to reach or exceed square 100 wins the game.
+## Contributing
+
+Contributions are always welcome!
+
+- Feel free to fork the repository and submit pull requests if you have improvements or additional features.
+
